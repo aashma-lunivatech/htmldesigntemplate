@@ -1,0 +1,61 @@
+body{
+    /* background-color: red; */
+    font-family: 'Khand';
+}
+h1{
+    color: red;
+}
+.treat-section{
+font-family: 'Khand';
+font-style: normal;
+color: #002841;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+}
+.dark-dollar{
+    color: #002841;
+    font-weight: 700;
+font-size: 30px;
+}
+.light-dollar
+{
+    color: #787878;
+    font-weight: 700;
+font-size: 30px;
+text-decoration-line: line-through;
+}
+.main-section{
+    margin-top: 30px;
+}
+
+.cart-btn{
+    background: #FCBA3B !important;
+    border: 1px solid #E5E5E5 !important;
+border-radius: 30px !important;
+}
+.cart-btn-text{
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.cart-text-paragraph{
+    margin-top: 19px;
+}
+.image-section{
+    margin-top: 10px;
+}
+.description-section{
+    margin-top: 20px;
+}
+.card-img-top{
+    background: #E6EFFF;
+    padding: 70px 1px 18px 33px;
+    width: 207px !important;
+height: 277px !important;
+
+}
+.image-section-card{
+    background: #E6EFFF;
+}
