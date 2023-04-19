@@ -1,19 +1,21 @@
 body{
     font-family: 'Khand';
 }
-.main-top-image{
+.happy-treat-main-top-image{
 width: 100%;
+
 }
-.main-top-div{
+.happy-treat-main-top-div{
     width: 100%;
 }
-.treat-section{
+.happy-treat-treat-section{
 font-family: 'Khand';
 color: #002841;
 font-weight: 700;
 line-height: 30px;
 font-style: normal;
 font-size: 40px;
+
 }
 .dark-dollar{
     color: #002841;
@@ -27,7 +29,7 @@ font-size: 30px;
 font-size: 30px;
 text-decoration-line: line-through;
 }
-.main-section{
+.happy-treat-main-section{
     margin-top: 30px;
 }
 
@@ -41,11 +43,12 @@ line-height: 18px;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
+white-space: nowrap;
 }
 .cart-text-paragraph{
     margin-top: 19px;
 }
-.image-section{
+.happy-treat-image-section{
     margin-top: 10px;
 }
 .description-section{
@@ -115,13 +118,13 @@ height: 174px !important;
         background-color: #E6EFFF;
         height: 272px;
         width: 100%;
-    }
+    }   
     .searchicon{
         position: absolute;
         width: 24px;
         height: 24px;
         left: 1143px;
-        top: 64px;
+        top: 60px;
     }
     .formbar{
         width: 274px;
@@ -152,32 +155,56 @@ height: 174px !important;
     }
     
     /* //media query */
-    @media only screen and (max-width: 480px) {
-        .treat-section {
+    @media only screen and (max-width: 412px) {
+        .happy-treat-treat-section {
           margin-top: 16px;
         }
+        .card-img-top{
+            width: 50%;
+        }
+        .searchicon{
+            top: 693px !important;
+            left: 317px !important;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .happy-treat-main-top-image{
+            display: none;
+        }
+        .happy-treat-treat-section{
+          margin-top: 16px;
+        }
+        .happy-treat-main-top-div {
+            width: 73%;
+          }
         .cart-text-paragraph{
             font-size: 14px;
         }
-        .cart-btn-text,.cart-topic,.item ,.treat-section {
+        .cart-btn-text,.cart-topic,.item ,.happy-treat-treat-section {
             font-size: 14px;
+            white-space: nowrap;
+        }
+        .card-img-top{
+            width: 50% ;
         }
         .card-title {
             font-size: 18px;
         }
-        .searchicon {   
-            position: absolute;    
-            left: 389px;
-            top: 832px;
-        }
+        .searchicon {
+            left: 380px !important;
+            top: 720px !important;
+          } 
         .formbar{
-            width: 50%;
+            width: 50%  !important;
             height: 43px;
         }       
       }
 
       @media only screen and (max-width: 576px) {
-        .treat-section {
+        .happy-treat-main-top-image{
+            display: none;
+        }
+        .happy-treat-treat-section {
           margin-top: 16px;
           font-size: 25px;
         }
@@ -187,14 +214,18 @@ height: 174px !important;
         .dark-dollar, .light-dollar  {            
             font-size: 24px;          
           }
-          .cart-btn-text,.cart-topic,.item ,.treat-section {
+          .cart-topic,.item {
             font-size: 14px;
+        }
+        .cart-btn-text{
+            font-size: 14px !important;
+            white-space: nowrap;
         }
           .searchicon{
             width: 24px;
             height: 24px;
-            left: 413px;
-            top: 832px;
+            left: 387px;
+            top: 838px;        
           }
           .button-section-cart{
             display: flex;           
@@ -203,5 +234,69 @@ height: 174px !important;
             width: 137px;
             height: 41px;
           }
+          .formbar{
+            width: 50% !important;
+            height: 51px;
+        }
+        .searchicon {
+            position: absolute;
+            left: 449px;
+            top: 896px;
+          }
+        
           
+      }
+      @media only screen and (max-width: 768px) {
+        .happy-treat-main-top-image{
+            display: none;
+        }
+        .happy-treat-treat-section {
+            font-size: 24px;
+            white-space: nowrap;            
+        }
+        .searchicon{
+            top: 425px;
+            left: 625px;
+        }
+        .formbar{
+            width: 50% !important;
+            height: 43px;
+        }
+        .card-title {
+            font-size: 18px;
+            white-space: nowrap;
+          
+        }
+        .cart-btn-text{
+            font-size: 15px;
+            white-space: nowrap;
+        }
+    }
+    @media only screen and (max-width: 992px) { 
+        .happy-treat-main-top-image{
+            display: none;
+        }
+        .searchicon{
+            top: 427px !important;
+            left: 633px !important;
+        }
+        .formbar{
+            width: 50%;
+        }
+        .card-title{
+            font-size: 16px;
+        }
+    }
+    @media only screen and (max-width: 992px) {    
+        .happy-treat-main-top-image{
+            display: none;
+        }    
+        .searchicon {            
+            top: 57px;
+            left: 887px;
+          }
+          .formbar{
+            width: 94%;
+            height: 45px;
+          }
       }

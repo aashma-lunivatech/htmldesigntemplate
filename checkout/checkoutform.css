@@ -1,0 +1,109 @@
+.checkout-order{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 55px;
+color: #002841;
+}
+.form-control{
+    
+font-family: 'Quicksand';
+border: 1px solid #E0E0E0;
+border-radius: 30px !important;
+margin-top: 12px;
+margin-bottom: 30px;
+}
+.checkoutform-btn{
+    margin-top: 21px !important;
+}
+.form-control::placeholder {
+    color: #828282 !important;
+  }
+  .btn.dropdown-toggle.btn-light {
+    border: 1px solid #E0E0E0;
+border-radius: 30px !important;
+background: white;
+}
+.product-checkout-order-section{
+
+}
+.rounded-circle{
+background: #FFFFFF !important;
+background-color: rgb(247, 247, 247) !important;
+width: 15px !important;
+}
+.checkout-row{
+    background: #0766C6;
+    color: white;
+    font-size: quicksand;
+    font-family: quicksand;  
+}
+th{
+    font-family: quicksand;
+}
+.table-dollar{
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+td{
+    font-family: 'Quicksand';
+    font-style: normal;
+    /* font-weight: 700; */
+}
+.subtotal-checkout-last{
+    border-bottom: 4px solid #304E91;
+    color:    #304E91;
+}
+.common-text{
+    font-family: 'Quicksand';
+    line-height: 20px;
+}
+.payment-section-notice{
+    background: #F2F2F2;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.payment-options{
+    display: grid;
+}
+.checkout-payment-form{
+    margin: 7px 0px 7px 0px;
+}
+.payment-checkout-paypal{
+    margin-left: 30px;
+}
+.cart-btn{
+    background: #FCBA3B !important;
+    border: 1px solid #E5E5E5 !important;
+border-radius: 30px !important;
+font-family: quicksand;
+}
+.cart-btn-text{
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+white-space: nowrap;
+font-family: quicksand;
+}
+.checkout-place-order{
+    margin-top: 24px;
+}
+.checkout-input-checkbox{
+    width: 30px !important;
+    height: 29px !important;
+    margin-left: -11px !important;
+}
+/* //captcha css */
+.captcha-main-section{
+    background: #f7f7f7;
+    max-width: 34%;
+    white-space: nowrap;
+}
+.common-text-captchabox{
+    margin: 23px !important;
+}
+
